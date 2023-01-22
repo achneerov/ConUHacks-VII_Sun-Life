@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './index.css';
 
+<link rel="stylesheet" type="text/css" href="index.css" />
+
 const investmentTips = props => (
 	<div>
 <title>Saving money during a crisis: do's and don'ts</title>
