@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './investmentGoals.scss';
 
 const investmentGoals = props => (
 	<div>This is a component called investmentGoals.</div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './foooter.scss';
 
 const foooter = props => (
 	<div>This is a component called foooter.</div>
