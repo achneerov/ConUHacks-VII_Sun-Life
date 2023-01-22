@@ -2,17 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const foooter = props => (
-	<div>This is a component called foooter.</div>
+	<div>
+	ConUhacks 2023	
+	</div>
 );
 
-// todo: Unless you need to use lifecycle methods or local state,
-// write your component in functional form as above and delete
-// this section. 
-// class foooter extends React.Component {
-//   render() {
-//     return <div>This is a component called foooter.</div>;
-//   }
-// }
 
 const foooterPropTypes = {
 	// always use prop types!

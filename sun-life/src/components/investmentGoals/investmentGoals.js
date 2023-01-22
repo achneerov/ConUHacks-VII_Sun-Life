@@ -1,18 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from 'react-bootstrap/Button';
 
 const investmentGoals = props => (
-	<div>This is a component called investmentGoals.</div>
-);
+	<div>
+		<button
+    type="button"
+    onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://www.sunlife.ca/en/investments/how-to-save-money-in-times-of-uncertainty/';
+      }}
+> Click here to Invest</button>
 
-// todo: Unless you need to use lifecycle methods or local state,
-// write your component in functional form as above and delete
-// this section. 
-// class investmentGoals extends React.Component {
-//   render() {
-//     return <div>This is a component called investmentGoals.</div>;
-//   }
-// }
+<button
+    type="button"
+    onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://i.gifer.com/1wIS.gif';
+      }}
+> Click here to Ignore</button>
+
+	</div>
+);
 
 const investmentGoalsPropTypes = {
 	// always use prop types!
